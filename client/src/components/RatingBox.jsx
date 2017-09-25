@@ -1,11 +1,12 @@
 import React from 'react';
+import WeekOpenings from './WeekOpenings.jsx'
 
 class RatingBox extends React.Component {
 
   render(){
     return(
       <div className='rating-box'>
-        this is RatingBox
+        <WeekOpenings/>
       </div>
     )
   }
