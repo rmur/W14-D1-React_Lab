@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import RatingBox from './components/RatingBox'
 
 window.addEventListener('load', function () {
   ReactDOM.render(
-    <h1>App Started</h1>,
+    <RatingBox/>, 
     document.getElementById('app')
   );
 });
